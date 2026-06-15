@@ -1,0 +1,25 @@
+# Instruções do Claude Code (não versionar)
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Webots — estado de UI por usuário (regenerado automaticamente ao abrir o mundo)
+*.wbproj
+
+# Webots — artefatos de build de controladores C/C++ (este projeto é Python, mas por garantia)
+controllers/**/build/
+controllers/**/*.o
+
+# Editores / Sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Observação: worlds/textures/pista.png NÃO é ignorada de propósito — o mundo a
+# referencia, então ela precisa ir junto para a simulação rodar.
